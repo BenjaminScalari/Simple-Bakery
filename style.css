@@ -1,0 +1,111 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FLEXBOX */
+.display-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-flex {
+  justify-content: center;
+  align-items: center;
+}
+
+/* TUTTO IL TESTO CHE DEVE ANDARE A SINISTRA */
+.left-text {
+  text-align: left;
+}
+
+/* SPAZIO NEL MARGINE BASSO */
+h1,
+h3 {
+  margin-bottom: 2rem;
+}
+
+
+section p,
+ol li p {
+  margin-bottom: 1rem;
+}
+
+/* REGOLE GENERALI PER LA PAGINA */
+body {
+  text-align: center;
+  color: rgb(51, 51, 51);
+  font-family: Georgia, serif;  
+}
+
+/* DIMENSIONI DEL LOGO */
+header img {
+  width: 200px;
+  margin: 20px 0;
+}
+
+/* STILE NAVBAR */
+nav {
+  width: 100vw;
+  margin-bottom: 4rem;
+  border-top: 1px solid rgb(255, 216, 119);
+  padding: 15px 0;
+
+  background-color: rgb(253, 251, 241);
+  color: rgb(0, 77, 76);
+
+  font-size: 0.8rem;
+}
+
+/* LARGHEZZE */
+main,
+footer {
+  width: 35%;
+}
+
+h1 {
+  width: 70%;
+}
+
+section div {
+  width: 100%;
+}
+
+section img {
+  width: 48rem;
+}
+
+h5 {
+  margin: 1rem 0;
+  color: rgb(153, 153, 153);
+}
+
+/* STILI TESTI COLORATI */
+section span {
+  color: rgb(181, 70, 15);
+}
+
+span a,
+footer a {
+  color: rgb(16, 119, 119);
+}
+
+/* STILE TITOLI DEGLI ARTICOLI */
+article h2 {
+  border-bottom: 1px solid rgb(196, 243, 242);
+  padding-bottom: 1rem;
+  margin: 3rem 0 2rem 0;
+}
+
+/* SPAZIATURA TRA GLI ITEMS DELLE LISTE */
+ul,
+ol {
+  margin-left: 3rem;
+}
+
+ul li,
+ol li {
+  margin: 1rem;
+}
